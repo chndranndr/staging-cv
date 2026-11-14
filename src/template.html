@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>%%NAME%% · Staging</title>
+<meta name="description" content="%%HEADLINE%%. %%PITCH%%">
+<script>document.documentElement.className='js'</script>
+<style>%%CSS%%</style>
+</head>
+<body>
+<div id="stage">
+  <div id="scene">
+    <canvas id="world-canvas" aria-hidden="true"></canvas>
+    <div id="world"></div>
+    <p id="narr"></p>
+  </div>
+
+  <div id="hud">
+    <p id="track"><span id="track-no">01</span><span id="track-title">boot</span><span id="track-place">The Lawn</span></p>
+    <p id="counter">doors approved <b id="n-approved">0</b> · doors forced <b>0</b></p>
+  </div>
+
+  <div id="frame" role="group" aria-label="Controls on the frame">
+    <button id="b-map" type="button" title="Map (M)"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 10l10-4 10 4 10-4v24l-10 4-10-4-10 4z M15 6v24 M25 10v24"/></svg><span>Map</span></button>
+    <button id="b-cast" type="button" title="Replay the broadcast"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 8h30v19H5z M14 34h12 M20 27v7 M12 14h10 M12 19h16"/></svg><span>Broadcast</span></button>
+    <button id="b-horn" type="button" aria-pressed="false" title="Loudspeaker: sound on or off"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 16h6l14-9v26l-14-9H6z"/><path class="waves" d="M30 14q4 6 0 12 M34 10q7 10 0 20"/></svg><span>Sound</span></button>
+    <button id="b-file" type="button" title="Case file: the plain CV (?)"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 12h12l3-4h15v24H5z M11 19h18 M11 25h13"/></svg><span>Case file</span></button>
+  </div>
+
+  <div id="doorcard" hidden role="group" aria-label="ANI is asking for approval">
+    <p class="who">ANI stops and looks at you.</p>
+    <code id="door-call">open_door(to: "the hallway")</code>
+    <p id="door-key" hidden>key: API_KEY</p>
+    <div class="row"><button id="approve" type="button">Approve</button><button id="notyet" type="button">Not yet</button></div>
+  </div>
+
+  <aside id="card" hidden aria-label="Details">
+    <button id="card-close" type="button" aria-label="Close">×</button>
+    <div id="card-body"></div>
+  </aside>
+
+  <div id="reader" aria-hidden="true"></div>
+
+  <section id="plate" aria-label="Maker's plate">
+    <div class="who">
+      <h1>%%NAME%%</h1>
+      <p class="headline">%%HEADLINE%%</p>
+      <p class="pitch">%%PITCH%%</p>
+    </div>
+    <div class="acts">
+      <button id="copy" type="button">Copy email</button>
+      <a id="book" class="book" href="%%MAIL%%">%%CTA%%</a>
+      <p class="note">%%NOTE%%</p>
+      <p class="avail">%%AVAIL%%</p>
+    </div>
+  </section>
+
+  <div id="walk" role="group" aria-label="Walk">
+    <button id="walk-l" type="button" aria-label="Walk left">←</button>
+    <button id="walk-r" type="button" aria-label="Walk right">→</button>
+  </div>
+  <p id="hint">hold → to walk</p>
+
+  <div id="strip" role="group" aria-label="Tracks"></div>
+
+  <div id="map" hidden role="dialog" aria-modal="true" aria-label="Map of the building">
+    <button id="map-close" type="button" aria-label="Close map">×</button>
+    <p class="map-head">It was one building all along.</p>
+    <div class="plan" id="plan"></div>
+    <p class="axis"><span>Feb 2017</span><span>Jul 2026</span></p>
+    <p id="map-summary"></p>
+    <p class="map-extra"><button id="map-air" type="button">The club craft · nine projects</button><button id="map-cast" type="button">The broadcast · four services</button></p>
+  </div>
+</div>
+
+<div id="live" class="sr" aria-live="polite"></div>
+
+<section id="cv" aria-labelledby="plain-heading" tabindex="-1">
+  <p class="cv-bar"><span>Case file · subject's maker</span><button id="cv-close" type="button">Close</button></p>
+  <div id="plain-content">%%SHEET%%</div>
+</section>
+
+<script id="cv-data" type="application/json">%%DATA%%</script>
+<script>%%JS%%</script>
+</body>
+</html>

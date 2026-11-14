@@ -1,0 +1,378 @@
+{
+  "name": "Chandra Aji Anindra",
+  "role": "Full Stack Developer",
+  "headline": "Full Stack Developer | Java | Spring Boot | React",
+  "location": "Bekasi, Indonesia",
+  "relocation": "Open to relocation",
+  "contact": {
+    "email": "chandra1293@live.com",
+    "linkedin": "https://linkedin.com/in/chandra-anindra",
+    "github": "https://github.com/chndranndr"
+  },
+  "summary": "Full stack developer with 9+ years of professional experience building robust, scalable applications with Java, Spring Boot, and the Spring Framework. Designs and maintains RESTful APIs and works daily with relational databases: database design, efficient SQL, and performance tuning on PostgreSQL. Frontend development with JavaScript, TypeScript, and React. Experience includes e-commerce and payment platforms, AWS deployments, Git-based Agile delivery, and clean, design-pattern-driven code. Current focus adds Applied AI: a production MCP + Copilot Studio LLM integration.",
+  "headlineMetrics": [
+    { "value": "9+", "label": "years of professional experience", "source": "career" },
+    { "value": "5x", "label": "peak transaction volume supported", "source": "infosys-antam" },
+    { "value": "50%", "label": "faster API responses at 10,000 daily transactions", "source": "infosys-antam" },
+    { "value": "30%", "label": "cut in critical query execution time", "source": "infosys-antam" },
+    { "value": "99.95%", "label": "uptime sustained through VM-to-Kubernetes migrations", "source": "julo" },
+    { "value": "2x", "label": "deployment frequency", "source": "julo" },
+    { "value": "40%", "label": "faster real-time retrieval", "source": "titipaja" },
+    { "value": "60%", "label": "less manual scheduling effort", "source": "titipaja" }
+  ],
+  "skills": {
+    "Languages": ["Java 17+", "JavaScript", "TypeScript", "Python", "Scala", "SQL"],
+    "Backend": ["Spring Boot", "Spring Framework", "Spring MVC", "RESTful APIs", "microservices", "JPA/Hibernate", "JWT", "OpenAPI"],
+    "Frontend": ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Vite"],
+    "Data & messaging": ["PostgreSQL", "MySQL", "Redis", "MongoDB", "Neo4j", "Kafka", "RabbitMQ", "ArtemisMQ"],
+    "Delivery & DevOps": ["Git", "GitLab CI/CD", "Docker", "Kubernetes", "OpenShift", "Helm", "Jenkins", "Ansible", "AWS", "Agile/Scrum"],
+    "Applied AI": ["LLM applications", "AI agents", "RAG", "MCP (Model Context Protocol)", "Copilot Studio", "typed tool calling", "approval gates"],
+    "Quality & observability": ["TDD (JUnit, Jest, Selenium)", "code review", "technical design documents", "Datadog", "Grafana", "Sentry"]
+  },
+  "experience": [
+    {
+      "id": "alex-solutions",
+      "company": "Alex Solutions",
+      "context": "Australia",
+      "title": "Full Stack Engineer (Data & AI)",
+      "start": "2025-08",
+      "end": "2026-07",
+      "stack": ["Java", "Scala", "React", "TypeScript", "PostgreSQL", "Neo4j", "Redis", "RabbitMQ", "JWT", "Docker Compose", "GitLab Runner", "JUnit", "Jest", "Cypress", "Mermaid", "C4", "MCP", "Copilot Studio", "Cursor", "Codex", "Claude Code"],
+      "bullets": [
+        "Owned feature development and production bug fixing across Java/Scala services, React interfaces, APIs, messaging, and relational and graph databases for an enterprise metadata-management platform.",
+        "Translated business requirements into implementation plans covering architecture, API and database changes, event flows, tests, and delivery. Created Mermaid flowcharts and sequence diagrams and used C4 diagrams to communicate system context, containers, and components.",
+        "Used JUnit and Jest in TDD workflows and Cypress for end-to-end validation before QA. Reviewed peer code and technical documents and helped enforce coding and documentation standards before merge.",
+        "Participated in stand-ups, sprint planning, refinement, and retrospectives, including leading daily stand-ups and sprint retrospectives when required.",
+        "Built User Operation Audit end to end across component event capture, data pipelines, database schemas, backend APIs, and dashboards, enabling analysis of user behavior, feature adoption, slow interactions, production issues, and roadmap priorities.",
+        "Integrated MCP with Copilot Studio so users could find table names, definitions, owners, and lineage through chat, then extended audit capture to measure chatbot-feature usage.",
+        "Managed parallel feature and release branches, resolved merge conflicts, and coordinated production hotfixes. Used Cursor for MCP and local-model testing and Codex, Claude Code, and in-house agents for implementation, testing, code review, and technical-document review."
+      ]
+    },
+    {
+      "id": "infosys-antam",
+      "company": "PT Infosys Solusi Terpadu",
+      "context": "Client: Antam Logam Mulia",
+      "title": "Senior Backend Developer",
+      "start": "2023-07",
+      "end": "2025-07",
+      "stack": ["Java", "Spring Boot", "REST APIs", "JPA/Hibernate", "PostgreSQL", "Redis", "ArtemisMQ", "JWT", "KMS", "Docker", "Kubernetes", "OpenShift", "JUnit", "Visual Paradigm", "GitHub Copilot", "Cursor", "Git", "CI/CD"],
+      "bullets": [
+        "Designed business-focused microservices for physical and digital gold transactions across purchase, buyback, orders, payments, inventory and delivery, back-office operations, and loyalty programs, with services communicating through REST APIs and ArtemisMQ.",
+        "Integrated payment providers and logistics partners to support payment processing and reliable physical-gold delivery workflows.",
+        "Used JPA/Hibernate for entity mapping, repositories, queries, custom ORM annotations, and encryption interceptors. Integrated Antam KMS to selectively encrypt customer names, phone numbers, and national IDs at rest for PDP compliance.",
+        "Produced technical designs and sequence diagrams using Visual Paradigm for backend workflows and third-party integrations. Participated in Scrum ceremonies, reviewed peer changes, and helped enforce coding standards.",
+        "Coordinated changes across parallel feature and release branches, resolved merge conflicts, and supported production hotfixes. Developed JUnit-based unit and integration tests to prevent regressions across transaction, payment, inventory, and delivery workflows.",
+        "Improved API response time by 50% for a service handling 10,000 daily transactions using Redis and event-driven processing, and reduced critical query execution time by 30% through indexing, optimized repository queries, and database views.",
+        "Designed ArtemisMQ asynchronous flows for peak-load resilience and architected OpenShift/Kubernetes microservices supporting 5x the peak transaction volume of the legacy platform.",
+        "Used GitHub Copilot and Cursor to support implementation, automated testing, and technical documentation."
+      ]
+    },
+    {
+      "id": "julo",
+      "company": "JULO",
+      "context": "FinTech",
+      "title": "Infrastructure Engineer",
+      "start": "2022-10",
+      "end": "2023-06",
+      "stack": ["Alibaba Cloud", "Kubernetes", "Helm", "Docker", "Ansible", "Jenkins", "JWT", "Datadog", "Sentry", "Grafana", "Kibana"],
+      "bullets": [
+        "Maintained Alibaba Cloud infrastructure across VM and Kubernetes workloads. Created Helm charts and a staging VPC to validate networking, service connectivity, authorization, and monitoring before production handoff.",
+        "Supported VM-to-Kubernetes migrations that helped the platform operate above 99.95% uptime and reduced MTTD by 50% through Datadog, Sentry, Grafana, and Kibana dashboards and alerting.",
+        "Automated CI/CD with Ansible, Jenkins, and Docker, reducing manual deployment time by 40% and doubling deployment frequency.",
+        "Collaborated with Security on phishing-awareness simulations and with Support on a storage server for debt-collection call recordings."
+      ]
+    },
+    {
+      "id": "titipaja",
+      "company": "Titipaja",
+      "context": "Logistics",
+      "title": "Full Stack Developer",
+      "start": "2021-05",
+      "end": "2022-09",
+      "stack": ["Java", "Spring Boot", "JPA/Hibernate", "JWT", "JavaScript", "Node.js", "PostgreSQL", "Redis", "Kafka", "Docker", "Kubernetes", "AWS EC2", "JUnit", "JMeter", "Visual Paradigm", "DDD", "TDD"],
+      "bullets": [
+        "Designed full-stack architecture using JavaScript and Node.js for user-facing flows, Java Spring Boot for backend services, and JPA/Hibernate, PostgreSQL, and Redis for persistence and caching.",
+        "Applied DDD across pickup, driver, warehouse and inbound, and storage domains. Produced technical designs and sequence diagrams using Visual Paradigm for logistics workflows and system interactions.",
+        "Applied TDD with JUnit and used JMeter for API stress testing.",
+        "Delivered pickup and inbound-management workflows that reduced manual scheduling effort by 60% and improved driver efficiency.",
+        "Improved real-time storage-tracking retrieval speed by 40% through PostgreSQL schema optimization, repository and query improvements, and Redis caching.",
+        "Integrated Kafka for asynchronous processing and deployed Dockerized applications to AWS EC2 and Kubernetes while handling troubleshooting, upgrades, and performance improvements."
+      ]
+    },
+    {
+      "id": "prudential",
+      "company": "Prudential Indonesia",
+      "context": "Finance",
+      "title": "Backend Developer",
+      "start": "2019-11",
+      "end": "2021-04",
+      "stack": ["Java", "Spring Boot", "REST APIs", "JPA/Hibernate", "Svelte", "Docker", "Kubernetes", "JUnit", "Selenium", "Visual Paradigm", "TDD"],
+      "bullets": [
+        "Developed Spring Boot services, integrated Svelte-based interfaces, and used JPA/Hibernate for entity mapping, repositories, and database queries.",
+        "Produced technical designs and sequence diagrams using Visual Paradigm. Applied TDD with JUnit using red-green-refactor and Selenium for automated browser testing.",
+        "Participated in stand-ups, sprint planning, and retrospectives. Reviewed peer code and helped enforce coding standards before merge.",
+        "Developed a digital-signing website handling 100+ signatures weekly and automated policy-eligibility checks for 1,000+ officers, reducing physical branch queues by 50% and manual processing time by 30%.",
+        "Built reusable Java validation code and libraries adopted across teams, reducing duplicated validation logic and improving consistency."
+      ]
+    },
+    {
+      "id": "firstwap",
+      "company": "PT Firstwap International",
+      "context": "Communication",
+      "title": "Java Developer",
+      "start": "2018-06",
+      "end": "2019-09",
+      "stack": ["Java", "Spring Boot", "Spring MVC", "JPA/Hibernate", "MySQL", "RabbitMQ", "Docker", "JBoss", "JUnit", "Selenium", "TDD"],
+      "bullets": [
+        "Developed Java applications using Spring Boot, Spring MVC, JPA/Hibernate, and MySQL, contributing to analysis, architecture, implementation, testing, and debugging.",
+        "Applied TDD with JUnit using red-green-refactor and Selenium for automated browser testing.",
+        "Participated in stand-ups and sprint planning, reviewed peer code, and helped enforce coding standards before integration.",
+        "Built a high-speed CSV ingestion module processing millions of rows in under 10 minutes and maintained RabbitMQ-based subscriber-provisioning services for reliable asynchronous delivery.",
+        "Migrated services from Spring MVC on JBoss to Spring Boot and Docker."
+      ]
+    },
+    {
+      "id": "gameloft",
+      "company": "Gameloft Indonesia",
+      "context": "Entertainment",
+      "title": "C++ Programmer",
+      "start": "2017-02",
+      "end": "2018-01",
+      "stack": ["C++", "Java", "OpenGL", "Adobe Flash", "Python", "in-house game engine"],
+      "bullets": [
+        "Developed Iron Blade and Dead Rival using C++, Java, OpenGL, and an in-house engine while collaborating with designers, artists, and other programmers.",
+        "Optimized OpenGL rendering to increase frame rate by 50% on mid-range devices and implemented a lighting system that maintained 60 FPS on low-end devices, earning Employee of the Month.",
+        "Built interactive UI elements with Adobe Flash and a Python asset-compression pipeline to improve game-asset processing and delivery."
+      ]
+    }
+  ],
+  "githubProfile": "https://github.com/chndranndr",
+  "services": [
+    {
+      "id": "llm-integrations",
+      "name": "LLM and agent integrations",
+      "description": "Chat and agent features wired into real systems: MCP servers, Copilot Studio, typed tool calling and human approval gates.",
+      "evidence": ["alex-solutions", "job-sequencer", "kuskus", "clueless"]
+    },
+    {
+      "id": "backend-systems",
+      "name": "Backend systems and APIs",
+      "description": "Java and Spring Boot microservices and RESTful APIs for transaction-heavy products such as payments, e-commerce and logistics.",
+      "evidence": ["infosys-antam", "titipaja", "prudential"]
+    },
+    {
+      "id": "data-pipelines",
+      "name": "Data pipelines and dashboards",
+      "description": "Event capture, ingestion, validation and the dashboards that turn the data into something a team can act on.",
+      "evidence": ["alex-solutions", "firstwap", "fire-tracker"]
+    },
+    {
+      "id": "performance-reliability",
+      "name": "Performance and reliability",
+      "description": "PostgreSQL and Redis tuning, Kubernetes and OpenShift deployments, CI/CD and observability.",
+      "evidence": ["infosys-antam", "julo", "titipaja"]
+    },
+    {
+      "id": "web-mobile-apps",
+      "name": "Web and mobile apps",
+      "description": "React and TypeScript front ends, local-first web apps and native Android work.",
+      "evidence": ["job-sequencer", "study-canvas", "skotel"]
+    }
+  ],
+  "offer": {
+    "_note": "Used by studies 05 onward in place of `services` and `placeholder.rates`. No prices anywhere.",
+    "pitch": "I build websites, Android apps, agentic apps and AI integrations.",
+    "cta": {
+      "label": "Book a consultation",
+      "note": "A free 30-minute call about your goal, your timeline and your current stack.",
+      "subject": "Consultation request"
+    },
+    "services": [
+      {
+        "id": "websites",
+        "name": "Websites",
+        "description": "React and TypeScript front ends, dashboards and full-stack web apps, from the first screen to deployment.",
+        "evidence": ["job-sequencer", "fire-tracker", "nihoncode", "titipaja"]
+      },
+      {
+        "id": "android-apps",
+        "name": "Android apps",
+        "description": "Native, local-first Android apps in Kotlin and Jetpack Compose, including stylus input and native audio.",
+        "evidence": ["study-canvas", "skotel"]
+      },
+      {
+        "id": "agentic-apps",
+        "name": "Agentic apps",
+        "description": "Bounded agent workflows with typed tools and human approval gates, so the agent acts only when you say so.",
+        "evidence": ["job-sequencer", "kuskus", "clueless", "alex-solutions"]
+      },
+      {
+        "id": "ai-integration",
+        "name": "AI integration",
+        "description": "LLM features wired into a product you already have: chat over your own data, MCP servers, Copilot Studio and multiple model providers.",
+        "evidence": ["alex-solutions", "forge-world-rpg", "kuskus"]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "job-sequencer",
+      "name": "Job Sequencer",
+      "tagline": "Human-in-the-loop job-search workbench",
+      "category": "AI & agents",
+      "featured": true,
+      "url": "https://github.com/chndranndr/job-sequencer",
+      "description": "Local-first dashboard turning a reviewed candidate profile and search preferences into ranked job shortlists, with document approval, application recording, and follow-ups under explicit user control. Bounded agent workflows with typed tools and approval gates.",
+      "stack": ["React", "TypeScript", "Vite", "Fastify", "SQLite"]
+    },
+    {
+      "id": "fire-tracker",
+      "name": "MERATUS Fire Tracker",
+      "tagline": "Indonesia wildfire intelligence dashboard",
+      "category": "Data & geospatial",
+      "featured": true,
+      "url": "https://github.com/chndranndr/fire-tracker",
+      "demo": "https://chndranndr.github.io/fire-tracker/",
+      "description": "Lightweight geospatial dashboard ingesting and validating NASA FIRMS observations, sharding hotspots by region and date, and overlaying public concession datasets; last-known-good fallback and automated regression checks.",
+      "stack": ["Python", "JavaScript", "Leaflet", "GeoJSON", "CI/CD"]
+    },
+    {
+      "id": "kuskus",
+      "name": "Kuskus",
+      "tagline": "A skill that makes a repository easier for coding agents to work in",
+      "category": "AI & agents",
+      "featured": true,
+      "url": "https://github.com/chndranndr/fuzzy-couscous",
+      "description": "File-backed skill for Codex, pi and OMP that makes a repository easier for coding agents to understand, run, verify and maintain. Commands to initialise, check, reconcile and harden a repository; reuses the existing stack and tooling instead of imposing a fixed template.",
+      "stack": ["Python", "Codex skills", "coding agents"]
+    },
+    {
+      "id": "clueless",
+      "name": "Clueless",
+      "tagline": "Screen-aware desktop assistant for Windows",
+      "category": "AI & agents",
+      "featured": false,
+      "url": "https://github.com/chndranndr/clueless",
+      "description": "Windows desktop overlay for screen-aware technical help: captures the active display or a selected area and streams model answers into one timeline. Supports several model providers through restricted sessions. Development build, not a packaged release.",
+      "stack": ["Electron", "JavaScript", "Pi SDK"]
+    },
+    {
+      "id": "study-canvas",
+      "name": "study-canvas",
+      "tagline": "Tablet-first Japanese learning workspace with stylus handwriting",
+      "category": "Mobile & native",
+      "featured": false,
+      "url": "https://github.com/chndranndr/study-canvas",
+      "description": "Android-only, local-first learning app built around a large zoomable canvas, stylus handwriting and progressive hints. Recognition and grading are deterministic and run on the device; AI is an optional, generation-only addition.",
+      "stack": ["Kotlin", "Jetpack Compose", "ML Kit Digital Ink", "Room/SQLite", "Gemini API"]
+    },
+    {
+      "id": "skotel",
+      "name": "Skotel",
+      "tagline": "Live-code music on an Android tablet, offline",
+      "category": "Mobile & native",
+      "featured": false,
+      "url": "https://github.com/chndranndr/skotel",
+      "description": "Brings the Strudel live-coding language and editor to Android with a native audio engine, so music keeps playing in the background or with the screen locked.",
+      "stack": ["C++", "AAudio", "QuickJS-NG", "Android"]
+    },
+    {
+      "id": "forge-world-rpg",
+      "name": "Forge World RPG",
+      "tagline": "Personal RPG story app with an AI narrator",
+      "category": "AI & agents",
+      "featured": false,
+      "url": "https://github.com/chndranndr/forge-world-rpg",
+      "description": "Personal RPG story app with a React front end and a local Node.js backend. SQLite holds saves, sessions, history and a ledger of AI usage; a guided world builder and an agent runtime drive the story. Works with Gemini, OpenRouter and custom OpenAI-compatible providers.",
+      "stack": ["React", "TypeScript", "Vite", "Node.js", "SQLite", "Vercel AI SDK"]
+    },
+    {
+      "id": "nihoncode",
+      "name": "NihonCode",
+      "tagline": "Local-first Japanese practice app",
+      "category": "Web apps",
+      "featured": false,
+      "url": "https://github.com/chndranndr/NihonCode",
+      "description": "Japanese practice app that runs entirely in the browser: no account, no server, data stays on the device. Daily routine, kana, kanji, vocabulary and grammar drills scheduled with FSRS, plus XP and streaks, on curated datasets validated through a Zod gate.",
+      "stack": ["TypeScript", "FSRS", "Zod", "Web Speech API"]
+    },
+    {
+      "id": "versemotion",
+      "name": "VerseMotion",
+      "tagline": "Local lyric-video renderer",
+      "category": "Media tools",
+      "featured": false,
+      "url": "https://github.com/chndranndr/VerseMotion",
+      "description": "Turns a video, or a still image with audio, plus an .lrc lyric file into a kinetic-typography MP4. Runs on the user's machine, so media stays local.",
+      "stack": ["JavaScript", "Remotion"]
+    }
+  ],
+  "placeholder": {
+    "_note": "Everything in this block is invented for the visual experiment. None of it is real. Remove the block before using a page for real.",
+    "availability": {
+      "status": "Booking new projects",
+      "nextStart": "1 December 2026",
+      "capacity": "2 project slots open",
+      "timezone": "UTC+7, overlap with Tokyo and Sydney working hours",
+      "responseTime": "Replies within one working day"
+    },
+    "rates": {
+      "currency": "USD",
+      "hourly": 45,
+      "daily": 320,
+      "packages": [
+        { "id": "discovery", "name": "Discovery Sprint", "duration": "1 week", "price": 1200, "priceNote": "fixed", "includes": ["Architecture review", "Written technical plan", "Estimate and risk list"] },
+        { "id": "ai-integration", "name": "AI Integration", "duration": "2–4 weeks", "price": 3800, "priceNote": "from", "includes": ["One LLM or agent feature in your product", "Typed tools and approval gates", "Usage audit dashboard"], "popular": true },
+        { "id": "mvp", "name": "MVP Build", "duration": "4–6 weeks", "price": 6500, "priceNote": "from", "includes": ["Backend, API and web front end", "CI/CD and deployment", "Two weeks of post-launch support"] },
+        { "id": "retainer", "name": "Monthly Retainer", "duration": "40 hours a month", "price": 1600, "priceNote": "per month", "includes": ["Priority fixes", "Performance tuning", "Monthly report"] }
+      ]
+    },
+    "process": [
+      { "step": 1, "name": "Call", "detail": "A 30-minute call about the goal, the deadline and the current stack." },
+      { "step": 2, "name": "Plan", "detail": "A written plan with scope, milestones and a fixed quote within three days." },
+      { "step": 3, "name": "Build", "detail": "Weekly demos, a shared board and a staging link from the first week." },
+      { "step": 4, "name": "Handover", "detail": "Documentation, tests, deployment scripts and two weeks of support." }
+    ],
+    "headlineStats": [
+      { "value": "24", "label": "projects delivered" },
+      { "value": "11", "label": "clients in 4 countries" },
+      { "value": "4.9/5", "label": "average client rating" },
+      { "value": "96%", "label": "delivered on schedule" }
+    ],
+    "projectStats": {
+      "job-sequencer": { "stars": 412, "forks": 38, "metric": "1,300+ applications tracked", "version": "v0.9.2", "updated": "Oct 2026" },
+      "fire-tracker": { "stars": 287, "forks": 41, "metric": "2.1M hotspot records processed", "version": "v1.4.0", "updated": "Nov 2026" },
+      "kuskus": { "stars": 655, "forks": 52, "metric": "Used in 140+ repositories", "version": "v0.6.1", "updated": "Oct 2026" },
+      "clueless": { "stars": 198, "forks": 23, "metric": "4 model providers", "version": "v0.3.0", "updated": "Sep 2026" },
+      "study-canvas": { "stars": 96, "forks": 9, "metric": "620 curated lesson cards", "version": "v0.4.0", "updated": "Sep 2026" },
+      "skotel": { "stars": 231, "forks": 17, "metric": "Under 12 ms audio latency", "version": "v0.5.3", "updated": "Oct 2026" },
+      "versemotion": { "stars": 143, "forks": 12, "metric": "5,200 videos rendered", "version": "v0.8.0", "updated": "May 2026" }
+    },
+    "testimonials": [
+      { "quote": "He replaced a nightly job we were afraid to touch with something we no longer think about.", "name": "Laras Wibisono", "title": "Head of Engineering", "company": "Sagara Pay" },
+      { "quote": "The chatbot shipped in three weeks, and the audit trail was there from day one.", "name": "Tomás Ferreira", "title": "Product Lead", "company": "Northwind Data" },
+      { "quote": "Clear plans, weekly demos, no surprises on the invoice.", "name": "Haruka Mizuno", "title": "Founder", "company": "Kumo Labs" }
+    ],
+    "clients": ["Sagara Pay", "Northwind Data", "Kumo Labs", "Lintas Kargo", "Verdant Maps", "Arunika Health"],
+    "faq": [
+      { "q": "Do you work with teams outside Indonesia?", "a": "Yes. Most work is remote, with daily overlap for Tokyo, Singapore and Sydney." },
+      { "q": "Can you join an existing team?", "a": "Yes, as a contractor on your board and in your repositories." },
+      { "q": "Who owns the code?", "a": "You do, from the first commit." }
+    ]
+  },
+  "education": [
+    {
+      "school": "Universitas Jenderal Soedirman",
+      "degree": "Bachelor of Computer Science (Informatics Engineering)",
+      "start": "2012",
+      "end": "2016"
+    }
+  ],
+  "certifications": ["AWS Academy Graduate – Cloud Foundations (Sep 2021)"],
+  "languages": [
+    { "language": "Indonesian", "level": "native" },
+    { "language": "English", "level": "professional working proficiency, CEFR B2" },
+    { "language": "Japanese", "level": "basic, currently studying" }
+  ],
+  "workAuthorization": "Indonesian citizen; requires employer-sponsored work authorization for overseas roles; open to relocation."
+}

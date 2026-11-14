@@ -1,0 +1,26 @@
+const url = 'http://127.0.0.1:8711/index.html';
+export default async api => {
+  await api.size(1440, 900); await api.go(url); await api.sleep(1500);
+  const S = '__staging', r = {};
+  const x0 = await api.ev(`${S}.ani.x`);
+  await api.key('ArrowRight', 'ArrowRight', 'keyDown'); await api.sleep(1500); await api.key('ArrowRight', 'ArrowRight', 'keyUp');
+  r.walked = Math.round(await api.ev(`${S}.ani.x`) - x0);
+  await api.ev(`document.querySelector('#b-horn').click()`); await api.sleep(1200);
+  r.sound = await api.ev(`document.querySelector('#b-horn').getAttribute('aria-pressed')`);
+  await api.ev(`for(let i=0;i<3;i++)document.querySelector('[aria-label^="Surveillance"]').click()`); await api.sleep(200);
+  r.cam = await api.ev(`document.querySelector('[aria-label^="Surveillance"]').getAttribute('aria-label')`);
+  await api.ev(`${S}.ani.x=${S}.SC[1].x0+1340`); await api.sleep(300); r.key = (await api.ev(`${S}.state()`)).hasKey;
+  await api.ev(`${S}.ani.x=${S}.SC[2].x0-150`); await api.sleep(500);
+  await api.ev(`document.querySelector('#notyet').click()`); await api.sleep(300); r.declinedHidden = await api.ev(`document.querySelector('#doorcard').hidden`);
+  await api.key('ArrowRight', 'ArrowRight', 'keyDown'); await api.sleep(800); await api.key('ArrowRight', 'ArrowRight', 'keyUp');
+  r.stillBlocked = (await api.ev(`${S}.state()`)).cur === 1;
+  await api.ev(`${S}.goScene(${S}.CLUB,1300)`); await api.sleep(300); await api.ev(`${S}.ani.x=${S}.SC[${S}.CLUB].x0+1480`); await api.sleep(400);
+  r.castAuto = await api.ev(`!document.querySelector('#card').hidden && document.querySelector('#card h2').textContent`);
+  await api.ev(`document.querySelector('[data-go="study-canvas"]').click()`); await api.sleep(500);
+  r.evidence = await api.ev(`document.querySelector('#card h2').textContent`);
+  r.mailto = decodeURIComponent(await api.ev(`document.querySelector('#book').href`));
+  r.sheetCounts = await api.ev(`(()=>{const c=document.querySelector('#plain-content');return {h3:c.querySelectorAll('h3').length,li:c.querySelectorAll('li').length,phone:/896/.test(document.body.innerHTML),usd:/\$|USD/.test(c.textContent)}})()`);
+  r.signs = await api.ev(`document.querySelectorAll('.sign').length`);
+  await api.press('m'); await api.sleep(2600); r.mapOpen = await api.ev(`!document.querySelector('#map').hidden`);
+  console.log(JSON.stringify(r, null, 1));
+};
